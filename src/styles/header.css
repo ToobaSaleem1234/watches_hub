@@ -1,0 +1,31 @@
+.header{
+    background-color: red;
+    color: whitesmoke;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+}
+.links{
+    display: flex;
+    gap:4rem;
+    font-weight: bold;
+    font-size: x-large;
+    color:whitesmoke;
+}
+
+.links a{
+    color: whitesmoke;
+    text-decoration: none;
+}
+.links a:hover{
+    text-decoration: underline;
+}
+.search-bar{
+    padding: 10px;
+    font-size: large;
+    outline: none;
+    border:2px solid rgb(14, 7, 7)
+}

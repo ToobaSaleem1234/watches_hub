@@ -1,0 +1,35 @@
+.hero{
+    background-size:cover;
+    padding-top:30px;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    text-align: center;
+    color: whitesmoke;
+    padding-left: 40px;
+}
+.hero h1{
+    font-size: 60px;
+    text-shadow: 3px 3px 8px rgba(0, 1, 0, 0.8);
+}
+.hero p{
+    font-size: 40px;
+    margin-top: 10px;
+}
+.hero button{
+    margin-top: 30px;
+    padding: 15px 25px;
+    font-size: 30px;
+    font-weight: bold;
+    background-color: red;
+    color: whitesmoke;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: background-color 0.53s ease;
+}
+.hero button:hover{
+    background-color: rgb(198, 13, 13);
+}

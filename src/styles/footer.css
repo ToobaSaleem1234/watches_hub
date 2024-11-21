@@ -1,0 +1,18 @@
+.footer-container{
+    background-color: #333;
+    color:whitesmoke;
+    display: flex;
+    padding: 15px;
+}
+.footer-content{
+    display:flex;
+    justify-content: space-around;
+    padding:25px;
+    gap:5rem;
+}
+.footer-content li,p{
+    font-size:23px;
+    text-align:justify; 
+    padding:10px; 
+    line-height:1.5
+}

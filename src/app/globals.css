@@ -1,0 +1,108 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(225, 221, 221);
+    font-family: Arial, sans-serif;
+    color: #333;    
+}
+a{
+    text-decoration: none;
+    color:#333
+}
+h1,h2,h3{
+    font-weight: bold;
+}
+ul li{
+    list-style: none;
+    font-size: large;
+    padding: 12px;
+}
+input{
+    padding: 10px;
+    font-size: large;
+    outline: none;
+    border:2px solid rgb(14, 7, 7)
+}
+
+@keyframes fadeIn{
+    0%{
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+.fade-in{
+    opacity: 0;
+    animation: fadeIn 2s ease-out forwards;
+}
+
+@media(max-width:768px){
+    .header{
+        flex-direction: column;
+        text-align: center;
+    }
+    .header .heading{
+        margin-bottom: 10px;
+    }
+    .header .links{
+        flex-direction: column;
+        gap: 10px;
+        align-items: center;
+    }
+    .hero{
+        padding: 40px 20px;
+        height: auto;
+    }
+    .home{
+        height: 70vh;
+        text-align: center;
+    }
+    .home h1{
+        font-size: 20px;
+        text-align: left;
+    }
+    .home p{
+        width: 50%;
+        text-align: left;
+    }
+    .home button{
+        width: 60%;
+        padding: 8px;
+        font-size: 16px;
+    }
+    .about-container{
+        padding: 40px 20px;
+        height: auto;
+    }
+    .about-content{
+        width: 100%;
+        padding: 10px;
+    }
+    .about-content h2{
+        width: 500px
+    }
+    .contact-form{
+        margin: 20px;
+        padding: 20px;
+    }
+    .footer-container{
+        align-items: center;
+        justify-content: center;
+    }
+    .footer-content{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .footer-content li,p{
+        font-size:13px;
+        text-align:center;
+        justify-content: center;
+    }
+}       
